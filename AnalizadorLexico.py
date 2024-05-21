@@ -48,6 +48,7 @@ class AnalizadorLexico:
             # Volver a la posicion inicial
             self.posicion = inicio
 
+
         return None, None
 
     def obtener_tokens(self):

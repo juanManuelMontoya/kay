@@ -5,7 +5,7 @@ from AnalizadorLexico import AnalizadorLexico
 class InterfazGrafica:
     def __init__(self, root):
         self.root = root
-        self.root.title("Analizador Léxico MyFirst")
+        self.root.title("Kay")
 
         self.text_area = tk.Text(self.root, height=20, width=60)
         self.text_area.pack()
